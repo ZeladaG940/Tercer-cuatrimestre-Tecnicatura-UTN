@@ -23,3 +23,4 @@ except Exception as e:
 finally:
     conexion.close()
 
+# http://www.pycopg.org/docs/usage.html
