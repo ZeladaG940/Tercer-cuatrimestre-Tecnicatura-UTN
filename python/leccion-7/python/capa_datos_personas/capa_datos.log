@@ -1,0 +1,55 @@
+02:38:14 PM: DEBUG: logger_base.py: 15: mensaje a nivel debug
+02:38:14 PM: INFO: logger_base.py: 16: mensaje a nivel info
+02:38:14 PM: WARNING: logger_base.py: 17: mensaje a nivel warning
+02:38:14 PM: ERROR: logger_base.py: 18: mensaje a nivel error
+02:38:14 PM: CRITICAL: logger_base.py: 19: mensaje a nivel critical
+02:59:10 PM: DEBUG: Persona.py: 47: 
+            ID Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jperez@gmail.com
+            
+03:01:53 PM: DEBUG: Persona.py: 47: 
+            ID Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jperez@gmail.com
+            
+03:02:07 PM: DEBUG: Persona.py: 47: 
+            ID Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jperez@gmail.com
+            
+03:02:11 PM: DEBUG: Persona.py: 47: 
+            ID Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jperez@gmail.com
+            
+03:03:08 PM: DEBUG: Persona.py: 47: 
+            ID Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jperez@gmail.com
+            
+03:03:08 PM: DEBUG: Persona.py: 50: 
+            ID Persona: 1,
+            Nombre: None,
+            Apellido: None,
+            Email: None
+            
+03:52:01 PM: DEBUG: conexion.py: 25: <connection object at 0x000002007EDE5F10; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+03:52:52 PM: DEBUG: conexion.py: 25: <connection object at 0x000001DF1EA35F10; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+03:53:06 PM: ERROR: conexion.py: 28: Ocurrio un error: 'utf-8' codec can't decode byte 0xf3 in position 79: invalid continuation byte
+03:53:25 PM: DEBUG: conexion.py: 25: <connection object at 0x000001FD4E515F10; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+03:53:57 PM: DEBUG: conexion.py: 25: <connection object at 0x000002122FE59F10; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+03:53:57 PM: ERROR: conexion.py: 42: Ocurrio un error: 'NoneType' object has no attribute 'cursor'
+03:54:44 PM: DEBUG: conexion.py: 26: <connection object at 0x000002A7B2829F10; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+03:54:44 PM: ERROR: conexion.py: 43: Ocurrio un error: 'NoneType' object has no attribute 'cursor'
+03:55:34 PM: DEBUG: conexion.py: 26: <connection object at 0x00000203E4289F10; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+03:55:34 PM: DEBUG: conexion.py: 40: Se abrio correctamente el cursor: <cursor object at 0x00000203E42D2180; closed: 0>
+03:56:37 PM: DEBUG: conexion.py: 26: <connection object at 0x000001C204519F10; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+03:56:37 PM: DEBUG: conexion.py: 40: Se abrio correctamente el cursor: <cursor object at 0x000001C204562180; closed: 0>
+03:59:03 PM: DEBUG: conexion.py: 27: Conexión exitosa
+03:59:03 PM: DEBUG: conexion.py: 40: Se abrio correctamente el cursor: <cursor object at 0x0000025DF3D52180; closed: 0>
